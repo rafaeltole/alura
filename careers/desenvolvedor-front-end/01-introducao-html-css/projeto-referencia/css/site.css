@@ -57,7 +57,6 @@ main a {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
-	padding-bottom: 80px;
 }
 
 .navegacao-site h1 {
@@ -108,10 +107,11 @@ nav a {
 main {
 	float: left;
 	width: 85%;
+	padding-bottom: 80px;
 }
 
 .minha-foto, .navegacao-site {
-	float: right;	
+	float: right;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
@@ -120,7 +120,7 @@ main {
 .minha-foto {
 	position: absolute;
 	top: 0;
-	right: 0;	
+	right: 0;
 }
 
 .navegacao-site {
