@@ -29,22 +29,19 @@ p {
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box;
-    margin: 20px 40px;
+    margin: 20px 40px;    
 }
 
 .navegacao-site  {
     text-align: center;
     background-color: #3C1D3D;
-    color: #F2FFFC;    
-}
-
-.navegacao-site h1 {
-    text-transform: uppercase;
+    color: #F2FFFC;
 }
 
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 main a {
@@ -69,6 +66,7 @@ main a {
 .navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 strong {
@@ -81,31 +79,12 @@ em {
 
 .subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
     display: inline-block;
 }
-
-.icones-redes-sociais a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -9999px
-}
-
-.github {
-    background-image: url(github.png);
-}
-
-.twitter {
-    background-image: url(twitter.png);
-}
-
-.linkedin {
-    background-image: url(linkedin.png)
-}
-
 
 .artigo {
     padding-bottom: 30px;
@@ -120,4 +99,53 @@ em {
     font-size: 24px;
     text-align: center;
     background-color: #e6e7e8;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;    
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;    
+}
+
+cite {
+    font-style: italic;
+    float: right;        
 }
